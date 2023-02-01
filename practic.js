@@ -15,13 +15,13 @@
 //     }
 // }
 
-let arr = [43, "what", 9, true, "cannot", false, "be", 3, true]
-let arr1 = []
+// let arr = [43, "what", 9, true, "cannot", false, "be", 3, true]
+// let arr1 = []
 
-for(i=arr.length - 1; i>=0; i--){
-    arr1.push(arr[i])
-}
-console.log(arr1)
+// for(i=arr.length - 1; i>=0; i--){
+//     arr1.push(arr[i])
+// }
+// console.log(arr1)
 
 
 // let arr_3 = [4, 6, 7]
@@ -51,3 +51,20 @@ console.log(arr1)
 //     return previousValue + currentValue;
 // })
 // console.log(sum1)
+
+
+// create function that goes through an array of numbers and adds 5 to themm all
+const addFive = (number) => number + 5
+
+
+arr1 =[1,2,3,4,5,6]
+arr2 =[]
+const addNumbers = (arr)=> {
+    for(let i=0; i<arr.length; i++) {
+        // arr2.push(arr1[i] + 5)
+    }
+    return arr
+}
+addFive(addNumbers(arr1))
+console.log(arr2)
+// console.log(addFive(2))
