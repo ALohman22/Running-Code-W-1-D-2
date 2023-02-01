@@ -7,13 +7,13 @@
 */
 
 //CODE HERE
-let lovesCode = true
-if(lovesCode === true){
-   console.log('I love to code!')
-   } else {
-     lovesCode === false;
-     console.log('Coding has its challenges.') 
- }
+// let lovesCode = true
+// if(lovesCode === true){
+//    console.log('I love to code!')
+//    } else {
+//      lovesCode === false;
+//      console.log('Coding has its challenges.') 
+//  }
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -28,15 +28,25 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
-if(amysAge > brittanisAge){
-  console.log('amy is older')
-} else if
-  (brittanisAge > amysAge){
-  console.log('brittani is older')
-} else { 
-  brittanisAge === amysAge
-  console.log('they are the same age')
-}
+// if(amysAge > brittanisAge){
+//   console.log('Amy is older')
+// } else if (amysAge < brittanisAge){
+//   console.log('Brittany is older')
+// } else { amysAge = brittanisAge
+//   console.log('They are the same age')
+// }
+
+
+
+// if(amysAge > brittanisAge){
+//   console.log('amy is older')
+// } else if
+//   (brittanisAge > amysAge){
+//   console.log('brittani is older')
+// } else { 
+//   brittanisAge === amysAge
+//   console.log('they are the same age')
+// }
 ////////// PROBLEM 3 //////////
 
 /*
@@ -44,12 +54,12 @@ if(amysAge > brittanisAge){
 */
 
 //CODE HERE
-if(amysBirthYear === brittanisBirthYear){
-  console.log('Amy and Brittani were borne in the same year!')
-} else {
-  amysBirthYear !== brittanisBirthYear
-  console.log('Amy and Brittani were not born in the same year!')
-}
+// if(amysBirthYear === brittanisBirthYear){
+//   console.log('Amy and Brittani were borne in the same year!')
+// } else {
+//   amysBirthYear !== brittanisBirthYear
+//   console.log('Amy and Brittani were not born in the same year!')
+// }
 ////////// PROBLEM 4 //////////
 
 let temperature = 55;
@@ -61,20 +71,20 @@ let rain = true;
 */
 
 //CODE HERE
-if(temperature >= 80 && rain === true){
-  console.log('Wear a t-shirt and take an umbrella.')
-} else if (temperature < 80 && temperature > 60 && raining === true){
-  console.log('Wear a rain jacket and bring an umbrella.')
-} else if (temperature <= 60 && rain === true){
-  console.log('Wear a jacket and bring an umbrella.')
-} else if (temperature <= 80 && temperature >= 60 && raining === false){
-  console.log('Wear a t-shirt.')
-} else if (temperature <= 60 && rain === false){
-  console.log('Wear a light jacket')
-} else{
-  temperature <= 60 && rain === false
-    console.log('Wear a winter coat') 
-}
+// if(temperature >= 80 && rain === true){
+//   console.log('Wear a t-shirt and take an umbrella.')
+// } else if (temperature < 80 && temperature > 60 && raining === true){
+//   console.log('Wear a rain jacket and bring an umbrella.')
+// } else if (temperature <= 60 && rain === true){
+//   console.log('Wear a jacket and bring an umbrella.')
+// } else if (temperature <= 80 && temperature >= 60 && raining === false){
+//   console.log('Wear a t-shirt.')
+// } else if (temperature <= 60 && rain === false){
+//   console.log('Wear a light jacket')
+// } else{
+//   temperature <= 60 && rain === false
+//     console.log('Wear a winter coat') 
+// }
 ////////// PROBLEM 5 //////////
 
 /*
@@ -82,8 +92,9 @@ if(temperature >= 80 && rain === true){
 */
 
 //CODE HERE
-for (let i = 1; i <= 10; i++){
-  console.log('hello')}
+// for (let i = 1; i <= 10; i++){
+//   console.log('hello')
+// }
 
 
 ////////// PROBLEM 6 //////////
@@ -93,9 +104,17 @@ for (let i = 1; i <= 10; i++){
 */
 
 //CODE HERE
-for (let i = 0; i <= 9; i++){
-  console.log(`log ${i+1}`)
-}
+// for(i=0; i<10; i++){
+//   console.log(`log ${i + 1}`)
+// }
+
+
+
+
+
+// for (let i = 0; i <= 9; i++){
+//   console.log(`log ${i+1}`)
+// }
 ////////// PROBLEM 7 //////////
 
 /*
@@ -103,9 +122,14 @@ for (let i = 0; i <= 9; i++){
 */
 
 //CODE HERE
-for (let i = 11; i >= 1; i--){
-  console.log(`log ${i-1}`)
-}
+
+// for(i = 10; i >= 1; i--){
+//   console.log(`Log ${i}`)
+// }
+
+// for (let i = 11; i >= 1; i--){
+//   console.log(`log ${i-1}`)
+// }
 
 ////////// PROBLEM 8 //////////
 
@@ -117,11 +141,20 @@ let passingScore = 7;
 */
 
 //CODE HERE
-while (score<passingScore){
-  if(score <= passingScore)
-    score++
-  console.log(`Your score is not high enough ${score}`)
-  }
+// while(score < passingScore){
+//   if(score <= passingScore)
+//     score ++
+//   console.log(`your score is not high enough ${score}`)
+// }
+
+
+
+
+// while (score<passingScore){
+//   if(score <= passingScore)
+//     score++
+//   console.log(`Your score is not high enough ${score}`)
+//   }
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -133,20 +166,20 @@ while (score<passingScore){
 */
 
 //CODE HERE
-let changMyMind = true
-if(changMyMind === true){
-  console.log(false)
-} else {changMyMind === false 
-    console.log(true)
-  }
+// let changMyMind = true
+// if(changMyMind === true){
+//   console.log(false)
+// } else {changMyMind === false 
+//     console.log(true)
+//   }
   
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
 //CODE HERE
-{changMyMind != true
-  console.log(true)
-}
+// {changMyMind != true
+//   console.log(true)
+// }
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
@@ -156,12 +189,12 @@ let z = 5;
 
 
 //CODE HERE
-while ( z > 0){
-  for(let i = z; i > 0; i--){
-  console.log(i)
-  }
-  z--
-}
+// while ( z > 0){
+//   for(let i = z; i > 0; i--){
+//   console.log(i)
+//   }
+//   z--
+// }
 // learning about a few moth commands
 
 // let randomNumber = Math.floor(Math.random() *10)
