@@ -54,17 +54,28 @@
 
 
 // create function that goes through an array of numbers and adds 5 to themm all
-const addFive = (number) => number + 5
-
-
 arr1 =[1,2,3,4,5,6]
-arr2 =[]
-const addNumbers = (arr)=> {
-    for(let i=0; i<arr.length; i++) {
-        // arr2.push(arr1[i] + 5)
-    }
-    return arr
-}
-addFive(addNumbers(arr1))
-console.log(arr2)
+
+
+
+// const addFive = (number) => number + 5
+
+
+// arr2 =[]
+// const addNumbers = (arr, callback) => {
+//     for(let i=0; i<arr.length; i++) {
+//         // arr2.push(arr1[i] + 5)
+//         console.log(arr[i])
+        
+//     }
+//     return arr
+// }
+// addNumbers(number => { 
+//     number + 5})
+// addNumbers(arr1)
+// console.log(arr1)
 // console.log(addFive(2))
+
+
+const arr2 = arr1.map(num => num += 5)
+console.log(arr2)

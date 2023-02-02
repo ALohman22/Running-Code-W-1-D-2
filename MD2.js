@@ -10,13 +10,18 @@ var arr = [10,20,30,40,50,60]
 let firstItem = arr[0]
 // console.log(firstItem)
 
+
+
 ////////// PROBLEM 2 //////////
 /*
   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
 */
 
 //Code Here
-let lastItemRemoved = arr.splice(5,1)
+let lastItemRemoved = arr.splice(arr.length-1,1)
+console.log(lastItemRemoved)
+console.log(arr)
+// let lastItemRemoved = arr.splice(5,1)
 // console.log(arr)
 
 ////////// PROBLEM 3 //////////
@@ -30,6 +35,17 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
+// const familyNames = (arr) => {
+//   for(i=0; i<arr.length; i++){
+//     console.log(arr[i])
+//   }
+// }
+// familyNames(family)
+
+family.forEach ((element) => console.log(element))
+
+
+
 // for(i=0; i<family.length; i++) {
 //     console.log(family[i])
 // }
